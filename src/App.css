@@ -1,7 +1,9 @@
 .App {
-  text-align: center;
+	/* text-align: center; */
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,13 +28,19 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+.container {
+	/* background-color: aqua; */
+	max-width: 1283px;
+	margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
